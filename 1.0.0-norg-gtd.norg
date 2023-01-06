@@ -1,0 +1,59 @@
+@document.meta
+title: The 1.0 Norg GTD specifications
+description: GTD specification for Neorg
+authors: danymat
+categories: specifications
+created: 2022-12-30
+updated: 2022-12-30
+version: 1.0.0
+@end
+
+* Norg GTD specifications
+  This file contains the formal specifications of the GTD syntax version `1.0.0`.
+
+  Please note that this is *not* a reference implementation.
+  This is an established rule set that should be strictly followed.
+
+  /Note: previous version is available at {:0.1.0-norg-gtd:}[0.1.0 specification]/
+
+* Notes
+  > These are personal notes helping me writing GTD specifications for norg file format
+
+  - Check out Tasks section in `:h neorg-tasks`
+  -- `- ( ) undone`
+   - `- (-) Pending -> in progress`
+   - `- (x) done`
+
+   - `- (?) unclarified`
+   - `- (!) Urgent`
+  - `- (+) Recurring task with children` (check out {** Recurring tasks})
+  -- `- (=) On hold`
+  -- `- (_) Cancelled`
+
+** Contexts
+   > Use specification at {:1.0-specification:**** Priority Extension}
+     `- (# home| ) task` Undone with a priority of B
+   - (# home salu) rrr
+
+** Recurring tasks
+   `- (+ 5th Jan)` Recurring every 5th of January
+
+** Timestamps
+   > Specification at {:1.0-specification:**** Timestamp Extension}
+
+   - Used for due dates, recurring
+
+   Priorities for timestamp support in GTD:
+   ~  `<day-of-month> <month> <year>` (required)
+   ~  `<time>`
+
+*** dates
+    > Start date Specification at {:1.0-specification:**** Start Date Extension}
+    > Due date Specification at {:1.0-specification:**** Due Date Extension}
+
+    - Should support due dates and start dates
+
+
+
+
+
