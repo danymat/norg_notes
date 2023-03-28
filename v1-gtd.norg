@@ -4,18 +4,18 @@ description: GTD specification for Neorg
 authors: danymat
 categories: specifications
 created: 2022-12-30
-updated: 2022-12-30
+updated: 2023-03-29
 version: 1.0.0
 @end
 
 * Norg GTD specifications
-  This file contains the formal specifications of the GTD syntax version `1.0.0`.
-
+This file contains the formal specifications of the GTD syntax version `1.0.0`.
+  
   Please note that this is *not* a reference implementation.
   This is an established rule set that should be strictly followed.
-
-  /Note: previous version is available at {:0.1.0-norg-gtd:}[0.1.0 specification]/
-
+  
+  /Note: previous version is available at {:beta-gtd:}[0.1.0 specification]/
+  
 * Notes
   > These are personal notes helping me writing GTD specifications for norg file format
 
